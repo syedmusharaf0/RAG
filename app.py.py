@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Query
-from pydantic import BaseModel
+from pydantic import BaseModel  
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
