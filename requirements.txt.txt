@@ -6,4 +6,4 @@ langchain-groq
 faiss-cpu
 sentence-transformers
 torch
-PyPDF2
+PyPDF2 
