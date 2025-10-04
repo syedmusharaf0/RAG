@@ -25,4 +25,5 @@ COPY . .
 EXPOSE 8501
 
 # Command to run your app
-CMD ["python", "app.py"]
+# Command to run FastAPI
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8501"]
